@@ -132,7 +132,7 @@ public class MainActivity extends AppCompatActivity {
                         //Toast.makeText(getApplicationContext(), "R", Toast.LENGTH_SHORT).show();
                         downloadUri=uri;
                         imageButton2.setEnabled(true);
-                        textView2.setText("enabled-gotUri");
+                        textView2.setText("enabled-"+topic);
                         if(sharedpreferences.getInt("prev",0)==1){
                             if (mediaPlayer != null ){
                                 if (mediaPlayer.isPlaying())
