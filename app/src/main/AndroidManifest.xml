@@ -12,6 +12,8 @@
         android:theme="@style/Theme.M7">
         <activity
             android:name=".MainActivity"
+            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,6 +21,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <service android:name=".MediaService" android:enabled="true"/>
+        <receiver android:name=".NotificationReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="play"/>
+                <action android:name="prev"/>
+                <action android:name="next"/>
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>

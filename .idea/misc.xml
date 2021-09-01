@@ -3,9 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/USER/AndroidStudioProjects/M7/app/src/main/res/drawable/playimg_foreground.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/M7/app/src/main/res/layout/activity_main.xml" value="0.14244186046511628" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/M7/app/src/main/res/layout/list_item.xml" value="0.1265625" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/M7/app/src/main/res/layout/spin.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/M7/app/src/main/res/mipmap-anydpi-v26/playimg.xml" value="0.2703125" />
       </map>
     </option>
   </component>
